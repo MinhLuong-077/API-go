@@ -1,0 +1,54 @@
+roles:
+  name: Transaction
+transactions:
+- user_id: 12345678
+  id: "1"
+  date: "2021-08-25 09:20:24"
+  name: "Nguyen Van A"
+  account: "918591724612"
+  bank: "ACB"
+  money: 10000000000
+  status: "2"
+  message: "deposit ten millions VND to stock market account"
+- user_id: 12345678
+  id: "2"
+  date: "2021-08-25 09:50:24"
+  name: "Nguyen Van B"
+  account: "189711987632"
+  bank: "ACB"
+  money: 10000000000
+  status: "2"
+  message: "withdraw fifty millions VND to stock market account"
+- user_id: 12345678
+  id: "3"
+  date: "2021-08-25 09:50:24"
+  name: "Nguyen Van B"
+  account: "189711987632"
+  bank: "ACB"
+  money: 10000000000
+  status: "2"
+  message: "withdraw fifty millions VND to stock market account"
+- user_id: 123456789
+  id: "1"
+  date: "2021-08-25 09:50:24"
+  name: "Nguyen Van B"
+  account: "189711987632"
+  bank: "ACB"
+  money: 10000000000
+  status: "2"
+  message: "withdraw fifty millions VND to stock market account"
+roles:
+  name: Bankaccount
+bankaccounts:
+- id: 12345678
+  account: "123456789"
+  bank: "BIDV"
+  name: "Nguyen Van A"
+  telephone: "0968569549"
+  money: 100000000
+- id: 123456789
+  account: "189711987632"
+  bank: "ACB"
+  name: "Nguyen Van B"
+  telephone: "01659774833"
+  money: 200000000

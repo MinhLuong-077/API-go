@@ -1,0 +1,6 @@
+go.sum
+
+firebase-stock.json
+test/
+trade_test.go
+service-account-file.json
